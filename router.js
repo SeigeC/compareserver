@@ -61,9 +61,4 @@ router.post("/write", async (ctx) => {
   ctx.response.body = "";
 });
 
-router.get("/ping", async (ctx) => {
-  console.log("ping");
-  ctx.response.body = "pong";
-});
-
 module.exports = router;
